@@ -61,6 +61,6 @@ export const getStaticPaths: GetStaticPaths = async () => {
         slug: post.permalink,
       },
     })),
-    fallback: true,
+    fallback: false,
   };
 };
