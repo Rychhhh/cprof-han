@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: Baloo;
+        src: url('/fonts/baloo/regular.ttf');
+        font-display: swap;
+    }
+    @font-face {
+        font-family: Whyte;
+        src: url('/fonts/whyte/regular.ttf');
+        font-display: swap;
+    }
+    @font-face {
+        font-family: Poppins;
+        src: url('/fonts/poppins/regular.ttf');
+        font-display: swap;
+    }
+}
