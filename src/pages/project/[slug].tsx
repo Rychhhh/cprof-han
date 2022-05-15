@@ -35,7 +35,7 @@ export default function DetailProject({ tags, title, subtitle, timestamp, thumb,
 }
 
 
-export const getStaticProps: GetStaticProps = async (ctx) => {
+export const getStaticProps: GetStaticProps = async (ctx) =>  {
   const { params } = ctx;
   const allPost = getAllProject();
   console.log(allPost);

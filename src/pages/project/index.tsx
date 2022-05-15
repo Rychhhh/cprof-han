@@ -4,6 +4,7 @@ import getAllProject from '../../../lib/data';
 import { ProjectMetaData } from "../../../types/MetaData";
 import Layout from "../../../components/project/Layout";
 import { useRouter } from "next/router";
+import Link from "next/link";
 
 export default function Index({posts}: any) {
 
@@ -12,7 +13,7 @@ export default function Index({posts}: any) {
   return (
     <Layout pageTitle="Project" className="bg-project selection:bg-orange-300 font-whyte font-bold h-[3000px] relative scroll-smooth">
 
-      <div className="w-[95%] mx-auto text-xl mt-20 grid grid-cols-1 md:w-[55%] md:grid-cols-1 gap-10 md:gap-32 lg:grid-cols-2 lg:gap-22 lg:w-[80%] xl:gap-20 xl:w-[60%] ">
+      <div className="project-collection">
           {posts.map((post: ProjectMetaData, index: React.Key) => {
             return(
                   <div key={index} onClick={() => router.push(`project/${post.permalink}`) } className="card w-[370px] md:w-[540px] lg:w-[500px] h-auto p-3 border-2 border-solid border-black font-poppins duration-200 rounded-xl hover:-translate-y-5 active:scale-90">
@@ -41,6 +42,14 @@ export default function Index({posts}: any) {
                 </div>
             )
           })}
+      </div>
+
+      <div className="text-center my-20 font-sans text-2xl   ">
+
+        <div className="link-github ">
+          <Link href="https://github.com/Ryhann">Github</Link>
+        </div>
+
       </div>
     </Layout>
   )
