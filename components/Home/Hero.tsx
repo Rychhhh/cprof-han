@@ -4,7 +4,7 @@ import styles from  '../../src/styles/keyframes.module.css';
 
 export default function Hero() {
   return (
-    <div className="hero" > 
+    <div className="overflow-hidden font-baloo relative z-100 h-[760px] bg-[url('/img/grass.png')] bg-bottom bg-cover bg-no-repeat bg-fixed " > 
         <Navbar />   
 
         <div className="w-full overflow-hidden">
@@ -18,7 +18,7 @@ export default function Hero() {
           
         <div className="container md:flex md:w-full md:overflow-visible">
          
-          <div className="hero-greating ">
+          <div className="greating container mx-auto w-[55%] md:w-[45%] py-20 relative">
               <div className="welcome text-[15px] font-bold" data-aos="fade-up"
      data-aos-anchor-placement="bottom-bottom" data-aos-duration="1500">
                 Hi! Welcome , Ims
