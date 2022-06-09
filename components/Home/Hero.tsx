@@ -21,7 +21,7 @@ export default function Hero() {
           <div className="greating container mx-auto w-[55%] md:w-[45%] py-20 relative">
               <div className="welcome text-[15px] font-bold" data-aos="fade-up"
      data-aos-anchor-placement="bottom-bottom" data-aos-duration="1500">
-                Hi! Welcome , Ims
+                Hi! Welcome , Im
               </div>
               <h1 className="text-[50px] w-[275px] mt-2"  data-aos="fade-up"
      data-aos-anchor-placement="bottom-bottom" data-aos-duration="3000">
