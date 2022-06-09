@@ -1,7 +1,6 @@
 import React from 'react'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { faGithub } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import Link from 'next/link';
 
@@ -25,7 +24,7 @@ export default function Footer() {
               </a>
           </Link>
           <Link href={''}>
-            <a href="https://www.instagram.com/ellohann/" className='hover:text-red-600'>
+            <a href="https://www.instagram.com/clouds1____/" className='hover:text-red-600'>
             <FontAwesomeIcon icon={faInstagram} style={{ width: '80px', height: "40px" }} />
             </a>
           </Link>

@@ -69,3 +69,22 @@
     hover:shadow-xl 
     active:shadow-xl;
 }
+
+/* Navbar */
+
+.link {
+    @apply hover:opacity-20 duration-300;
+ }
+ 
+ .link-active {
+     @apply hover:bg-gray-200 hover:text-slate-800 py-4 px-6 w-full cursor-pointer;
+ }
+
+.hamburger-line {
+    @apply w-8 h-1 bg-slate-800 rounded-md;
+}
+
+.hamburger-active > span:nth-child(1) {
+    @apply rotate-45 transition;
+}
+/* End Navbar */

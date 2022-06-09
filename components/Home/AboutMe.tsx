@@ -15,7 +15,7 @@ export default function AboutMe() {
         {/* Profile Image  */}
             <div className="w-[250px] ml-28 mt-20 absolute top-[500px] md:right-20 md:top-20 md:w-[400px] md:mt-[400px]" data-aos="fade-up"
      data-aos-anchor-placement="bottom-bottom" data-aos-duration="1000">
-            <Image className="rounded-full " src="/img/rushia.jpg" alt="rushiajpg" width={362} height={332}/>
+            <Image className="rounded-full " src="/img/rayhan.jpeg" alt="mypotoprofile" width={462} height={432}/>
           </div>
 
             {/* Card About Me */}
