@@ -4,10 +4,10 @@ export default function AboutMe() {
   return (
     <div className=" bg-[url('/img/grass2.png')] overflow-hidden bg-bottom bg-cover bg-no-repeat h-[1400px] md:h-[1190px] font-baloo">
         <div className="pohon1 -ml-48 absolute overflow-hidden">
-            <Image src="/img/tree1.png" alt="tree1" width={478} height={1029}/>
+            <img src="/img/tree1.png" alt="tree1" width={478} height={1029}/>
         </div>
         <div className="pohon2 right-0 absolute overflow-x-hidden hidden md:block">
-            <Image src="/img/tree2.png" alt="tree2" width={468} height={1029}/>
+            <img src="/img/tree2.png" alt="tree2" width={468} height={1029}/>
         </div>
     
         <div className="container grid grid-cols-1 w-[75%] py-52 md:grid-cols-2 ">
@@ -33,7 +33,7 @@ export default function AboutMe() {
                 <h1 className="text-[20px] font-bold w-64 h-12 text-white pr-10 ">A Brief Introduction</h1>
                 <h3 className="w-[200px] text-[35px] h-[100px] font-bold text-white pt-5  md:w-[247px] md:h-[159px] md:text-[80px]">About Me</h3>
                 <div className="card-side absolute -left-9 -bottom-8" >
-                    <Image src="/img/card-side-bg.png" alt="cardbgside" width={200} height={200} />
+                    <img src="/img/card-side-bg.png" alt="cardbgside" width={200} height={200} />
                 </div>
             </div>
 

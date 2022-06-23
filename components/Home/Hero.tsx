@@ -8,10 +8,10 @@ export default function Hero() {
 
         <div className="w-full overflow-x-hidden">
           <div className={`animate_cloud absolute inset-y-0 my-[100px]`}>
-              <Image src="/img/awan1.png" alt="awan1" width={600} height={200}/>
+              <img src="/img/awan1.png" alt="awan1" width={600} height={200}/>
             </div>
             <div className={`animate_cloud1 absolute inset-y-0 my-52 `}>
-              <Image src="/img/awan2.png" alt="awan2" width={600} height={200}/>
+              <img src="/img/awan2.png" alt="awan2" width={600} height={200}/>
             </div>
         </div>
           
