@@ -11,7 +11,7 @@ import React from "react";
 export default function DetailProject({ tags, title, subtitle, timestamp, thumb, mdxSource }: PostMetaData) {
   console.log({ tags, title, subtitle, timestamp, thumb , mdxSource })
   return (
-    <Layout pageTitle={`Detail ${title}`} className="bg-project selection:bg-orange-300 font-whyte font-bold relative scroll-smooth">
+    <Layout pageTitle={`Detail ${title}`} className="bg-project selection:bg-orange-300 font-whyte font-bold relative scroll-smooth" childrenHeader="">
       <div className="container mx-auto w-[83%] mt-20 md:w-[33%]">
           <Image src={thumb} alt={'Photo Detail'} className="rounded-xl" width={750} height={500} />
       </div>
