@@ -4,17 +4,17 @@ import Head from "next/head";
 import {Link} from 'react-scroll';
 import { ReactNode } from "react";
 import Footer from "./Footer";
-import Header from "./Header";
 import Navbar from "./Navbar";
 
 interface Project {
   pageTitle : string;
   className: string;
+  childrenHeader: string;
   children: ReactNode;
 }
 
 export default function Layout( props: Project ) {
-  const {children, pageTitle, className} = props;
+  const {children, pageTitle, className, childrenHeader} = props;
 
   return (
     <div className={className}>
@@ -22,7 +22,9 @@ export default function Layout( props: Project ) {
                 <title>{''} {pageTitle} | UNION</title>
             </Head>
             <Navbar />
-            <Header />
+            <div className="w-[85%] text-2xl  mx-auto font-poppins font-bold md:w-[55%] md:text-5xl lg:w-[80%]">
+                {childrenHeader}
+            </div>
             <div >
               {children}
             </div>
