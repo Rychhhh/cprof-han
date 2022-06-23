@@ -13,9 +13,10 @@ export default function AboutMe() {
         <div className="container grid grid-cols-1 w-[75%] py-52 md:grid-cols-2 ">
 
         {/* Profile Image  */}
-            <div className="w-[250px] ml-28 mt-20 absolute top-[500px] md:right-20 md:top-20 md:w-[400px] md:mt-[400px]" data-aos="fade-up"
+            <div className="w-[250px] ml-3 mt-10 absolute top-[500px] md:right-20 md:top-20 md:w-[400px] md:mt-[400px]" data-aos="fade-up"
      data-aos-anchor-placement="bottom-bottom" data-aos-duration="1000">
-            <Image className="rounded-full " src="/img/rayhan.jpeg" alt="mypotoprofile" width={462} height={432}/>
+                <div className="rounded-full w-[362px] h-[350px] md:w-[402px] object-center md:h-[402px] bg-[url('/img/rayhan.jpeg')] md:bg-[url('/img/rushia.jpg')] hover-image-profile"></div>
+
           </div>
 
             {/* Card About Me */}
@@ -44,7 +45,10 @@ export default function AboutMe() {
                 There is one thing that I think. Success will not come instantly but from our own efforts
                 </p>
                 <div className="button w-60 h-10 ml-20 md:w-80 md:h-16 bg-gradient-to-r bg-[#93E89B] drop-shadow-[0_5px_0px_rgba(0,0,0,0.30)] to-[#2cac56] hover:drop-shadow-none hover:translate-y-2  text-white duration-150 hover:bg-[#6ae977] flex justify-center items-center rounded-[40px]"  data-aos="fade-up" data-aos-duration="2500">
-                    <span className="font-normal text-sm md:text-xl ">Sounds Good. Tell Me More !</span>
+                    <a href="/cv_download/CVRayhan.pdf" target="_blank"
+                    rel="noopener noreferrer">
+                        <span className="font-normal text-sm md:text-xl ">Sounds Good. Tell Me More !</span>
+                    </a>
                 </div>
             </div>
         </div>
