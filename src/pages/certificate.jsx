@@ -36,7 +36,7 @@ export default function Certificate() {
 
                     {DataImage.map((image) => (
                         <div key={image.alt} className="image-certificate" onClick={() => getImage(image.src)}>
-                            <Image  src={image.src} alt={image.alt} width={423} height={423}/>
+                            <img  src={image.src} alt={image.alt} width={423} height={423}/>
                         </div>
                     ))}
                 </div>
