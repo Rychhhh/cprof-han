@@ -13,7 +13,7 @@ export default function DetailProject({ tags, title, subtitle, timestamp, thumb,
   return (
     <Layout pageTitle={`Detail ${title}`} className="bg-project selection:bg-orange-300 font-whyte font-bold relative scroll-smooth" childrenHeader="">
       <div className="container mx-auto w-[83%] mt-20 md:w-[33%]">
-          <Image src={thumb} alt={'Photo Detail'} className="rounded-xl" width={750} height={500} />
+          <img src={thumb} alt={'Photo Detail'} className="rounded-xl" width={750} height={500} />
       </div>
       <div className="content w-[75%] mx-auto py-7 md:w-[50%]">
           <h3 className="text-xl font-bold font-poppins">Diposting pada {timestamp}</h3>
