@@ -1,0 +1,69 @@
+.animate_cloud {
+    animation: cloud 12s infinite linear;
+    width: 50%;
+}
+
+.animate_cloud1 {
+    animation: cloud1 7s infinite linear;
+    width: 50%; 
+}
+
+/* Certificate */
+
+.modal {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    background-color: #000000;
+    opacity: 0;
+    transition: opacity .4s ease, visibility .4s ease, transform .5s ease-in-out;
+    transform: scale(0);
+    overflow: hidden;
+    z-index: 999;
+}
+
+.modal_open {
+    visibility: visible;
+    opacity: 1;
+    transform: scale(1);
+}
+
+.modal img{
+    width: auto;
+    margin: 0 auto;
+    max-width: 100%;
+    max-height:100%;
+    display: block;
+    line-height: 0;
+    box-sizing: border-box;
+    padding: 20px 0px 20px;
+}
+
+@keyframes cloud1 {
+    from {
+        left: -8rem;
+        transform: translateX(-100%); 
+    } 
+    to {
+        left: 100%;
+        transform: translateX(0%); 
+    }
+}
+
+@keyframes cloud {
+    from {
+        left: -14rem;
+        transform: translateX(-100%); 
+    }
+    to {
+        left: 100%;
+        transform: translateX(0%); 
+    }
+ 
+}
