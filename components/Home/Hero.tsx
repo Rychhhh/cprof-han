@@ -1,17 +1,16 @@
 import Image from "next/image";
 import Navbar from "./Navbar";
-import styles from  '../../src/styles/keyframes.module.css';
 
 export default function Hero() {
   return (
     <div className="overflow-hidden font-baloo relative z-100 h-[760px] bg-[url('/img/grass.png')] bg-bottom bg-cover bg-no-repeat bg-fixed " > 
         <Navbar />   
 
-        <div className="w-full overflow-hidden">
-          <div className={`${styles.animate_cloud} absolute inset-y-0 py-[100px] overflow-hidden`}>
+        <div className="w-full overflow-x-hidden">
+          <div className={`animate_cloud absolute inset-y-0 my-[100px]`}>
               <Image src="/img/awan1.png" alt="awan1" width={600} height={200}/>
             </div>
-            <div className={`${styles.animate_cloud1} absolute inset-y-0 py-52 `}>
+            <div className={`animate_cloud1 absolute inset-y-0 my-52 `}>
               <Image src="/img/awan2.png" alt="awan2" width={600} height={200}/>
             </div>
         </div>
