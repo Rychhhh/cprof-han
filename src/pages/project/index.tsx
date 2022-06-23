@@ -11,7 +11,7 @@ export default function Index({posts}: any) {
   const router = useRouter();
   
   return (
-    <Layout pageTitle="Project" className="bg-project selection:bg-orange-300 font-whyte font-bold h-[3000px] relative scroll-smooth">
+    <Layout pageTitle="Project" className="bg-project selection:bg-orange-300 font-whyte font-bold h-[3000px] relative scroll-smooth" childrenHeader="project">
 
       <div className="project-collection">
           {posts.map((post: ProjectMetaData, index: React.Key) => {
