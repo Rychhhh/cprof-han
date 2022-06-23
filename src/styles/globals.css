@@ -52,6 +52,14 @@
     container mx-auto w-[55%] md:w-[45%] py-20 relative
 }
 
+/* Hover Profile */ 
+.hover-image-profile {
+    @apply 
+    duration-200 cursor-pointer bg-center
+    hover:bg-[url('/img/rayhan.jpg')] 
+       
+}
+
 .project-collection { 
     @apply 
     w-[95%] mx-auto text-xl mt-20 grid 
@@ -88,3 +96,19 @@
     @apply rotate-45 transition;
 }
 /* End Navbar */
+
+
+
+/* Certificate */
+.image-certificate {
+    @apply
+    duration-300 hover:-translate-y-5 hover:cursor-pointer 
+    hover:scale-100
+}
+
+.btn-close {
+    @apply
+    text-white
+    text-4xl font-bold
+    absolute top-10 right-10
+}
