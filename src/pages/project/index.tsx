@@ -11,7 +11,7 @@ export default function Index({posts}: any) {
   
   return (
     <Layout pageTitle="Project" className="bg-project selection:bg-orange-300 font-whyte font-bold h-[3000px] relative scroll-smooth" childrenHeader="project">
-
+        
       <div className="project-collection">
           {posts.map((post: ProjectMetaData, index: React.Key) => {
             return(
@@ -19,7 +19,7 @@ export default function Index({posts}: any) {
                     <div className="w-300 h-32 ">
                       
                       <div className="img-tags relative">
-                          <img className="rounded-xl w-[200px] h-[300px] md:w-[532px] md:h-[300px] " src={`${post.thumb}`} alt={post.title} width={532} height={300}/>
+                          <img className="rounded-xl w-[500px] h-[200px] md:w-[532px] md:h-[300px] " src={`${post.thumb}`} alt={post.title} width={532} height={300}/>
                           <ul className="tags absolute bottom-0 left-0 font-normal text-white flex gap-5 mb-5 ml-3 ">
                             {post.tags.map((tag:{}) => (
                                 <li key={index} className="bg-slate-400 py-1 px-1 text-[10px] rounded-md w-16 h-9 text-center md:w-24 md:text-sm">{tag}</li>

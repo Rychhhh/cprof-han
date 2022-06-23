@@ -5,6 +5,7 @@ import {Link} from 'react-scroll';
 import { ReactNode } from "react";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
+import Script from 'next/script';
 
 interface Project {
   pageTitle : string;
@@ -36,6 +37,7 @@ export default function Layout( props: Project ) {
                 </a>
               </Link>
             </div>
+            <Script src="/smooth-scroll/smooth.js" />
         </div>
    
   )

@@ -10,7 +10,7 @@ export default function Footer() {
   
   return (
     <div className='w-full h-[600px] mt-20 bg-[#1a1c1e] text-[#e9ebde] font-poppins sm:h-[655px] lg:py-20 selection:bg-yellow-500 selection:text-slate-900'>
-        <div className="word w-[100%] sm:w-[50%] sm:flex sm:items-center lg:mx-[750px] ">
+        <div className="word w-[100%] sm:w-[50%] sm:flex sm:items-center lg:container lg:mx-auto lg:justify-center ">
             <h1 className="text-2xl text-center py-10 font-semibold sm:text-5xl md:text-2xl">You Trust Is My Priority </h1>
             <div className="second-word sm:ml-20">
               <h3 className="text-sm py-1 text-center sm:text-xl md:text-sm lg:pb-10 duration-1000 hover:underline-offset-8 hover:underline">Build By <span className='text-yellow-300'>Rayhan</span> </h3>
