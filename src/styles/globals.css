@@ -56,6 +56,7 @@
 .hover-image-profile {
     @apply 
     duration-200 cursor-pointer bg-center
+    bg-[url('/img/rayhan.jpg')] 
     hover:bg-[url('/img/rayhan.jpg')] 
        
 }

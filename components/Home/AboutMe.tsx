@@ -15,7 +15,7 @@ export default function AboutMe() {
         {/* Profile Image  */}
             <div className="w-[250px] ml-3 mt-10 absolute top-[500px] md:right-20 md:top-20 md:w-[400px] md:mt-[400px]" data-aos="fade-up"
      data-aos-anchor-placement="bottom-bottom" data-aos-duration="1000">
-                <div className="rounded-full w-[232px] h-[300px] md:w-[402px] object-center md:h-[402px] bg-[url('/img/rayhan.jpeg')] md:bg-[url('/img/rushia.jpg')] md:hover-image-profile"></div>
+                <div className="rounded-full w-[362px] h-[350px] md:w-[402px] object-center md:h-[402px] bg-[url('/img/rayhan.jpeg')] md:bg-[url('/img/rushia.jpg')] hover-image-profile"></div>
 
           </div>
 
