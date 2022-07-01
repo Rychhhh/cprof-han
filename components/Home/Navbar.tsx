@@ -7,6 +7,7 @@ export default function Navbar() {
     { class: 'link', name: 'Home', href: '/'},
     { class: 'link', name: 'Project', href: '/project'},
     { class: 'link', name: 'Certificate', href: '/certificate'},
+    { class: 'link', name: 'Feedback', href: '/feedback'},
   ]
 
   return (

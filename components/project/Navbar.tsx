@@ -7,6 +7,7 @@ export default function Navbar() {
     { class: 'link', name: 'Home', href: '/'},
     { class: 'link', name: 'Project', href: '/project'},
     { class: 'link', name: 'Certificate', href: '/certificate'},
+    { class: 'link', name: 'Feedback', href: '/feedback'},
   ]
 
   return (
@@ -27,9 +28,12 @@ export default function Navbar() {
                 <Link href={'/certificate'}> Certificate </Link> 
               </span>
               <span className="link underline-offset-4 hover:underline duration-75">
+                <Link href={'/feedback'}> Feedback </Link> 
+              </span>
+              <span className="link underline-offset-4 hover:underline duration-75">
                 <Popup trigger={<button className="font-bold underline-offset-4 hover:underline">Blog</button>} position="bottom center">
                   <div className="py-2 px-4 bg-orange-200 font-semibold font-whytee">
-                    <h1>Segera Dibuat</h1>
+                    <h1>Coming Soon</h1>
                   </div>
                 </Popup>
               </span>`

@@ -113,3 +113,24 @@
     text-4xl font-bold
     absolute top-10 right-10
 }
+
+/* Blog */
+.blog {
+    @apply 
+    bg-slate-900 min-h-screen
+}
+
+.stack-1 {
+    @apply 
+    w-[340px] md:w-[600px] mx-auto items-center justify-center
+}
+
+.title {
+    @apply
+    text-white text-center py-20 text-4xl font-bold  underline underline-offset-4
+}
+
+.back-button {
+    @apply 
+    py-2 px-5 rounded-xl bg-gray-500 opacity-75 hover:opacity-100 cursor-pointer
+}
