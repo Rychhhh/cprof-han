@@ -24,7 +24,7 @@ export default function AboutMe() {
 
                 <div className="rect aboutme absolute z-100 grid grid-cols-1 gap-12 top-10 items-center -right-[50px] md:-right-40 md:top-32">
                     <span className="bg-[#35c264] text-white w-auto text-sm font-bold py-3 px-3 text-left rounded-xl md:py-3 md:px-5 md:text-xl"> <span className="pr-5">🎍</span>  
-                    F u l l s t a c k <br />  D e v e l o p e r</span>
+                    F u l l s t a c k <br />  D e v e l o p e rs</span>
                     <span className="bg-[#35c264] text-white w-auto text-sm font-bold py-3 px-3 text-left rounded-xl md:py-3 md:px-5 md:text-xl"> <span className="pr-5">🎮</span>  
                      G a m e r s <br /> E n t h u s i a s t</span>
                     <span className="bg-[#35c264] text-white w-auto text-sm font-bold py-3 px-3 text-left rounded-xl md:py-3 md:px-5 md:text-xl"> <span className="pr-5">🎑</span>  
