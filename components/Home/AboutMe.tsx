@@ -5,7 +5,6 @@ export default function AboutMe() {
     <div className=" bg-[url('/img/grass2.png')] overflow-hidden bg-bottom bg-cover bg-no-repeat h-[1400px] md:h-[1190px] font-baloo">
         <div className="pohon1 -ml-48 absolute overflow-hidden">
             <img src="/img/tree1.png" alt="tree1" width={478} height={1029}/>
-            <img src="/img/rayhann.jpg" alt="tree1" width={478} height={1029}/>
 
         </div>
         <div className="pohon2 right-0 absolute overflow-x-hidden hidden md:block">
