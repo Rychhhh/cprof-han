@@ -37,8 +37,8 @@ export default function Footer() {
               <FontAwesomeIcon icon={faGithub} style={{ width: '80px', height: "40px" }} />
               </a>
           </Link>
-          <Link href={'https://www.instagram.com/ellohann/'}>
-            <a href="https://www.instagram.com/clouds1____/" className='hover:text-red-600'>
+          <Link href={'https://www.instagram.com/raehaneiffel_/'}>
+            <a href="https://www.instagram.com/raehaneiffel_/" className='hover:text-red-600'>
             <FontAwesomeIcon icon={faInstagram} style={{ width: '80px', height: "40px" }} />
             </a>
           </Link>
