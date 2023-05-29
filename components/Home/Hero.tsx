@@ -28,7 +28,7 @@ export default function Hero() {
               </h1>
               <h4 className="w-[242px] h-[30px] text-[13px]" data-aos="fade-up"
      data-aos-anchor-placement="bottom-bottom" data-aos-duration="3000">
-                  I’m a fullstack developer and game enthusiast from <span className="bg-gradient-to-r from-red-700 to-gray-200 bg-clip-text text-transparent">indonesia</span>
+                  I’m a fullstack developer from <span className="bg-gradient-to-r from-red-700 to-gray-200 bg-clip-text text-transparent">indonesia</span>
               </h4>
           </div>  
 
