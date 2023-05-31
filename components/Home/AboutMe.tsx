@@ -27,7 +27,7 @@ export default function AboutMe() {
                     <span className="bg-[#35c264] text-white w-auto text-sm font-bold py-3 px-3 text-left rounded-xl md:py-3 md:px-5 md:text-xl"> <span className="pr-5">🎍</span>  
                     F u l l s t a c k <br />  D e v e l o p e r</span>
                     <span className="bg-[#35c264] text-white w-auto text-sm font-bold py-3 px-3 text-left rounded-xl md:py-3 md:px-5 md:text-xl"> <span className="pr-5">🎮</span>  
-                     G a m e r s <br /> E n t h u s i a s t</span>
+                     Tech <br /> E n t h u s i a s t</span>
                     <span className="bg-[#35c264] text-white w-auto text-sm font-bold py-3 px-3 text-left rounded-xl md:py-3 md:px-5 md:text-xl"> <span className="pr-5">🎑</span>  
                      U I  U X <br /> D e v e l o p e r</span>
                 </div>
@@ -41,7 +41,7 @@ export default function AboutMe() {
             {/*  */}
             <div className="my_experience mt-40 md:ml-80 md:mt-10">
                 <h1 className="w-[443px] h-[93px] text-[25px] ml-10 font-normal mb-[10px] md:mb-[89px] md:text-[45px]" data-aos="flip-left" data-aos-duration="2500">I LEARN THOUGHT EXPERIENCE</h1>
-                <p className="w-96 h-56 mx-[10px] text-[16px] font-normal" data-aos="fade-up" data-aos-duration="2500">Hi! im Rayhan from Indonesia, im now a student and also doing a little bit of busy learning about the world of programming. I can make several websites and also my hobby is a gamer and otaku
+                <p className="w-96 h-56 mx-[10px] text-[16px] font-normal" data-aos="fade-up" data-aos-duration="2500">Hi! im Rayhan from Indonesia, im now a student and also doing a little bit of busy learning about the world of programming. I can make several websites and also my hobby is a reading book and soft learning coding
                 <br /> <br />
                 There is one thing that I think. Success will not come instantly but from our own efforts
                 </p>
